@@ -16,7 +16,7 @@ module.exports.run = async (client, message, args) => {
 			.setTitle(`All Available Commands`)
 			.addField('Made By', `\`Aman Sharma\``, true)
 			.addField('Prefix', `\`${process.env.prefix}\``, true)
-            .addField('Github', `[Akinator-Discord](https://github.com/amansharmaa/akinator)`, true)
+            .addField('Github', `[Akinator](https://github.com/amansharmaa/akinator-dis)`, true)
                         .setDescription(result)
 			.setColor('RANDOM'),
 		);
